@@ -23,9 +23,6 @@ Use the command to clear your registers.
 :ClearRegisters
 ```
 
-> [!TIP]
-> It's just that shrimple.
-
 ## Configuration
 
 Lol. Lmao, even.
