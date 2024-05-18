@@ -7,8 +7,9 @@ Adds the command `:ClearRegisters` to clear your registers. That's literally it.
 ```lua
 -- lazy.nvim
 {
-	"FireIsGood/nvim-clear-registers",
-	config = true
+  "FireIsGood/nvim-clear-registers",
+  lazy = false,
+  config = true,
 },
 
 -- packer
@@ -25,7 +26,17 @@ Use the command to clear your registers.
 
 ## Configuration
 
-Lol. Lmao, even.
+### Defaults
+
+The `.setup()` call is optional if you are fine with the defaults below.
+
+```lua
+-- default config
+require("clear-registers").setup({
+  registerFunction = true, -- Registers :ClearRegisters
+  clearOnStartup = true,   -- Clears all registers on startup
+})
+```
 
 ## Contributing
 
