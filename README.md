@@ -1,4 +1,4 @@
-# Nvim Clear Registers
+# nvim-clear-registers
 
 Adds the command `:ClearRegisters` to clear your registers. That's literally it.
 
